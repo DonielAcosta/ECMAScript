@@ -39,7 +39,7 @@ helloWOrld()
 
     ES9
 
-// **spread **: permite manipular partes de un objeto es decir destructurar o estructura un objeto then/catch/finally: ahora podemos tener un funciona que permita saber cuando terminó una promesa./miRegexString/.exec() : ahora permite obtener los grupos en un arreglo.
+// spread permite manipular partes de un objeto es decir destructurar o estructura un objeto then/catch/finally: ahora podemos tener un funciona que permita saber cuando terminó una promesa.RegexString.exec() : ahora permite obtener los grupos en un arreglo.
 
 
 const regexData = /([0-9]{4})-([0-9]{2})-([0-9]{2})/
