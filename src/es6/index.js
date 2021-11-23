@@ -135,3 +135,58 @@ const a = 'b';
 
 a = 'a';
 console.log(a);
+
+let name = 'Doniel';
+let age = 26;
+
+//es5
+obj = {name: name, age: age};
+//es6
+obj2 = {
+  name,
+  age
+};
+
+console.log(obj2);
+
+
+const names = [
+  {name:'Doniel', age: 26},
+  {name:'Lina', age: 24},
+];
+
+let listOfnames = names.map(function(item){
+  console.log(item.name);
+})
+
+let listOfnames2 = names.map(
+    item => console.log(item.name)
+);
+
+const listOfnames3 = (name, age, country) =>{
+  ...
+};
+
+const listOfnames4 = name =>{
+  ...
+}
+
+const square = num => num * num;
+
+//promesas para trabajara asicronismo
+
+const helloPromise = ( )=>{
+  return new Promise((resorlve,reject)=>{
+    if(true){
+      resorlve('Todo BIEN!');
+    }else{
+      reject('Algo PAso!!!');
+    }
+  });
+}
+
+
+helloPromise()
+  .then(Response => console.log(Response))
+  .then(()=> console.log('calidad'))
+  .catch(error => console.log(error));
