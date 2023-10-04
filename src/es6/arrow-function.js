@@ -6,4 +6,5 @@ const square = () =>{
     return num * num;
 }
 
+
 const square =num => num *num;
