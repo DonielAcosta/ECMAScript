@@ -1,5 +1,6 @@
 const hello =() => {
-    return 'APRENDIENDO EMASCRIPT!!'
+    // return 'APRENDIENDO EMASCRIPT!!'
+    console.log('APRENDIENDO EMASCRIPT!!');
 }
 
 export default hello;
