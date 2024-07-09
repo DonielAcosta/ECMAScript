@@ -11,8 +11,7 @@ console.log(epicPhrase2);
 
 let lorem = 'esto es un string \n' +' esto es otra linea '
 
-let lorem2 = `esta es una prueba 
-                en la empresa `;
+let lorem2 = `esta es una prueba en la empresa `;
 
 console.log(lorem);
 console.log(lorem2);
