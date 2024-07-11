@@ -45,13 +45,11 @@ const acosta = new user('Doniel');
 console.log(acosta.greeting());
 
 //setters getters
-
 class user{
     constructor(name,age){
         this.name = name;
         this.age  = age;
     }
-
     speak(){
         return
     }
